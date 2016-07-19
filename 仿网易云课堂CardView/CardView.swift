@@ -10,9 +10,9 @@ import UIKit
 
 class CardView: UIView {
     
-    var imageArr: [UIImageView]!
-    var numberOfItems: Int!
-    var target: UIViewController!
+    private var imageArr: [UIImageView]!
+    private var numberOfItems: Int!
+    private var target: UIViewController!
     
     init(frame: CGRect, items: Int, target: UIViewController) {
         super.init(frame: frame)
