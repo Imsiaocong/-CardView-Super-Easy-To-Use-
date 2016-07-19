@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CA2DB81D3CFC21002E0566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2DB71D3CFC21002E0566 /* AppDelegate.swift */; };
+		01CA2DBA1D3CFC21002E0566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2DB91D3CFC21002E0566 /* ViewController.swift */; };
+		01CA2DBD1D3CFC21002E0566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CA2DBB1D3CFC21002E0566 /* Main.storyboard */; };
+		01CA2DBF1D3CFC21002E0566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CA2DBE1D3CFC21002E0566 /* Assets.xcassets */; };
+		01CA2DC21D3CFC21002E0566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CA2DC01D3CFC21002E0566 /* LaunchScreen.storyboard */; };
+		01CA2DCD1D3CFC22002E0566 /* ______CardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2DCC1D3CFC22002E0566 /* ______CardViewTests.swift */; };
+		01CA2DD81D3CFC22002E0566 /* ______CardViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2DD71D3CFC22002E0566 /* ______CardViewUITests.swift */; };
+		01CA2DE61D3CFC2D002E0566 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2DE51D3CFC2D002E0566 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CA2DC91D3CFC21002E0566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CA2DAC1D3CFC21002E0566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CA2DB31D3CFC21002E0566;
+			remoteInfo = "仿网易云课堂CardView";
+		};
+		01CA2DD41D3CFC22002E0566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CA2DAC1D3CFC21002E0566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CA2DB31D3CFC21002E0566;
+			remoteInfo = "仿网易云课堂CardView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CA2DB41D3CFC21002E0566 /* 仿网易云课堂CardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿网易云课堂CardView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CA2DB71D3CFC21002E0566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01CA2DB91D3CFC21002E0566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01CA2DBC1D3CFC21002E0566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01CA2DBE1D3CFC21002E0566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01CA2DC11D3CFC21002E0566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01CA2DC31D3CFC21002E0566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CA2DC81D3CFC21002E0566 /* 仿网易云课堂CardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿网易云课堂CardViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CA2DCC1D3CFC22002E0566 /* ______CardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______CardViewTests.swift"; sourceTree = "<group>"; };
+		01CA2DCE1D3CFC22002E0566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CA2DD31D3CFC22002E0566 /* 仿网易云课堂CardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿网易云课堂CardViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CA2DD71D3CFC22002E0566 /* ______CardViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______CardViewUITests.swift"; sourceTree = "<group>"; };
+		01CA2DD91D3CFC22002E0566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CA2DE51D3CFC2D002E0566 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CA2DB11D3CFC21002E0566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DC51D3CFC21002E0566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DD01D3CFC22002E0566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CA2DAB1D3CFC21002E0566 = {
+			isa = PBXGroup;
+			children = (
+				01CA2DB61D3CFC21002E0566 /* 仿网易云课堂CardView */,
+				01CA2DCB1D3CFC21002E0566 /* 仿网易云课堂CardViewTests */,
+				01CA2DD61D3CFC22002E0566 /* 仿网易云课堂CardViewUITests */,
+				01CA2DB51D3CFC21002E0566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01CA2DB51D3CFC21002E0566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CA2DB41D3CFC21002E0566 /* 仿网易云课堂CardView.app */,
+				01CA2DC81D3CFC21002E0566 /* 仿网易云课堂CardViewTests.xctest */,
+				01CA2DD31D3CFC22002E0566 /* 仿网易云课堂CardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CA2DB61D3CFC21002E0566 /* 仿网易云课堂CardView */ = {
+			isa = PBXGroup;
+			children = (
+				01CA2DB71D3CFC21002E0566 /* AppDelegate.swift */,
+				01CA2DB91D3CFC21002E0566 /* ViewController.swift */,
+				01CA2DE51D3CFC2D002E0566 /* CardView.swift */,
+				01CA2DBB1D3CFC21002E0566 /* Main.storyboard */,
+				01CA2DBE1D3CFC21002E0566 /* Assets.xcassets */,
+				01CA2DC01D3CFC21002E0566 /* LaunchScreen.storyboard */,
+				01CA2DC31D3CFC21002E0566 /* Info.plist */,
+			);
+			path = "仿网易云课堂CardView";
+			sourceTree = "<group>";
+		};
+		01CA2DCB1D3CFC21002E0566 /* 仿网易云课堂CardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				01CA2DCC1D3CFC22002E0566 /* ______CardViewTests.swift */,
+				01CA2DCE1D3CFC22002E0566 /* Info.plist */,
+			);
+			path = "仿网易云课堂CardViewTests";
+			sourceTree = "<group>";
+		};
+		01CA2DD61D3CFC22002E0566 /* 仿网易云课堂CardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01CA2DD71D3CFC22002E0566 /* ______CardViewUITests.swift */,
+				01CA2DD91D3CFC22002E0566 /* Info.plist */,
+			);
+			path = "仿网易云课堂CardViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CA2DB31D3CFC21002E0566 /* 仿网易云课堂CardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CA2DDC1D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardView" */;
+			buildPhases = (
+				01CA2DB01D3CFC21002E0566 /* Sources */,
+				01CA2DB11D3CFC21002E0566 /* Frameworks */,
+				01CA2DB21D3CFC21002E0566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿网易云课堂CardView";
+			productName = "仿网易云课堂CardView";
+			productReference = 01CA2DB41D3CFC21002E0566 /* 仿网易云课堂CardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01CA2DC71D3CFC21002E0566 /* 仿网易云课堂CardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CA2DDF1D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardViewTests" */;
+			buildPhases = (
+				01CA2DC41D3CFC21002E0566 /* Sources */,
+				01CA2DC51D3CFC21002E0566 /* Frameworks */,
+				01CA2DC61D3CFC21002E0566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CA2DCA1D3CFC21002E0566 /* PBXTargetDependency */,
+			);
+			name = "仿网易云课堂CardViewTests";
+			productName = "仿网易云课堂CardViewTests";
+			productReference = 01CA2DC81D3CFC21002E0566 /* 仿网易云课堂CardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01CA2DD21D3CFC22002E0566 /* 仿网易云课堂CardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CA2DE21D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardViewUITests" */;
+			buildPhases = (
+				01CA2DCF1D3CFC22002E0566 /* Sources */,
+				01CA2DD01D3CFC22002E0566 /* Frameworks */,
+				01CA2DD11D3CFC22002E0566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CA2DD51D3CFC22002E0566 /* PBXTargetDependency */,
+			);
+			name = "仿网易云课堂CardViewUITests";
+			productName = "仿网易云课堂CardViewUITests";
+			productReference = 01CA2DD31D3CFC22002E0566 /* 仿网易云课堂CardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CA2DAC1D3CFC21002E0566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王笛iOS.Inc";
+				TargetAttributes = {
+					01CA2DB31D3CFC21002E0566 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+					};
+					01CA2DC71D3CFC21002E0566 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+						TestTargetID = 01CA2DB31D3CFC21002E0566;
+					};
+					01CA2DD21D3CFC22002E0566 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+						TestTargetID = 01CA2DB31D3CFC21002E0566;
+					};
+				};
+			};
+			buildConfigurationList = 01CA2DAF1D3CFC21002E0566 /* Build configuration list for PBXProject "仿网易云课堂CardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CA2DAB1D3CFC21002E0566;
+			productRefGroup = 01CA2DB51D3CFC21002E0566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CA2DB31D3CFC21002E0566 /* 仿网易云课堂CardView */,
+				01CA2DC71D3CFC21002E0566 /* 仿网易云课堂CardViewTests */,
+				01CA2DD21D3CFC22002E0566 /* 仿网易云课堂CardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CA2DB21D3CFC21002E0566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA2DC21D3CFC21002E0566 /* LaunchScreen.storyboard in Resources */,
+				01CA2DBF1D3CFC21002E0566 /* Assets.xcassets in Resources */,
+				01CA2DBD1D3CFC21002E0566 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DC61D3CFC21002E0566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DD11D3CFC22002E0566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CA2DB01D3CFC21002E0566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA2DBA1D3CFC21002E0566 /* ViewController.swift in Sources */,
+				01CA2DE61D3CFC2D002E0566 /* CardView.swift in Sources */,
+				01CA2DB81D3CFC21002E0566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DC41D3CFC21002E0566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA2DCD1D3CFC22002E0566 /* ______CardViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CA2DCF1D3CFC22002E0566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA2DD81D3CFC22002E0566 /* ______CardViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CA2DCA1D3CFC21002E0566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CA2DB31D3CFC21002E0566 /* 仿网易云课堂CardView */;
+			targetProxy = 01CA2DC91D3CFC21002E0566 /* PBXContainerItemProxy */;
+		};
+		01CA2DD51D3CFC22002E0566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CA2DB31D3CFC21002E0566 /* 仿网易云课堂CardView */;
+			targetProxy = 01CA2DD41D3CFC22002E0566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01CA2DBB1D3CFC21002E0566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CA2DBC1D3CFC21002E0566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01CA2DC01D3CFC21002E0566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CA2DC11D3CFC21002E0566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01CA2DDA1D3CFC22002E0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01CA2DDB1D3CFC22002E0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01CA2DDD1D3CFC22002E0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿网易云课堂CardView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01CA2DDE1D3CFC22002E0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿网易云课堂CardView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01CA2DE01D3CFC22002E0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿网易云课堂CardViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿网易云课堂CardView.app/仿网易云课堂CardView";
+			};
+			name = Debug;
+		};
+		01CA2DE11D3CFC22002E0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿网易云课堂CardViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿网易云课堂CardView.app/仿网易云课堂CardView";
+			};
+			name = Release;
+		};
+		01CA2DE31D3CFC22002E0566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿网易云课堂CardViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿网易云课堂CardView";
+			};
+			name = Debug;
+		};
+		01CA2DE41D3CFC22002E0566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿网易云课堂CardViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.------CardViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿网易云课堂CardView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CA2DAF1D3CFC21002E0566 /* Build configuration list for PBXProject "仿网易云课堂CardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CA2DDA1D3CFC22002E0566 /* Debug */,
+				01CA2DDB1D3CFC22002E0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CA2DDC1D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CA2DDD1D3CFC22002E0566 /* Debug */,
+				01CA2DDE1D3CFC22002E0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CA2DDF1D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CA2DE01D3CFC22002E0566 /* Debug */,
+				01CA2DE11D3CFC22002E0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CA2DE21D3CFC22002E0566 /* Build configuration list for PBXNativeTarget "仿网易云课堂CardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CA2DE31D3CFC22002E0566 /* Debug */,
+				01CA2DE41D3CFC22002E0566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CA2DAC1D3CFC21002E0566 /* Project object */;
+}
