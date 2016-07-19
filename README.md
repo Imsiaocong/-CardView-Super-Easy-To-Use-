@@ -1,5 +1,9 @@
 # -CardView-Super-easy-to-use-
-Install
+INSTALL
+
+Just copy and paste CardView.swift to your project
+
+USE
     
     override func viewDidLoad() {
         super.viewDidLoad()
